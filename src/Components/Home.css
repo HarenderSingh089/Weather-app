@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather_box{
+    background: linear-gradient(#4199d2, #a2c8e3);
+    height: 80vh;
+    width: 92vw;
+    margin: auto;
+    display: flex;
+
+}
+.weather_ballon{
+    flex-basis: 60%;
+    color: white;
+    text-align: center;
+}
+.weather_info{
+    flex-basis: 40%;
+    background: linear-gradient( 
+        #2a5e84 ,#7a8f9b);
+        padding: 2rem;
+        color: white;
+        flex-wrap: wrap;
+}
+.weather_ballon>img{
+    width: 16rem;
+    margin-top: 6rem;
+    /* margin-left: 23rem; */
+}
+.weather_temp{
+    font-size: 7rem;
+    /* margin-right: 2rem;
+    margin-left: -5rem; */
+    padding-right: 2rem;
+}
+.city_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.city>h1{
+    font-size: 2.5rem;
+}
+.city>h3{
+    font-size: 1rem;
+}
+.weather_location>p{
+    margin: 1.5rem 0;
+}
+.weather_details>h3,p{
+    margin: 1.5rem 0;
+}
+.weather_details>p{
+    display: flex;
+}
+.percentage{
+    flex: 1;
+    text-align: right;
+}
+
+.weather_info>input{
+    background: transparent;
+    outline: none;
+    border: none;
+    margin-bottom: 0.5rem;
+    width: 70%;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+}
+::placeholder {
+    color: white;
+    
+  }
